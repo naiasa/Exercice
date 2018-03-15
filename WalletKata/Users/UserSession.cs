@@ -2,11 +2,11 @@ using WalletKata.Exceptions;
 
 namespace WalletKata.Users
 {
-    public class UserSession
+    public class UserSession : IUserSession
     {
         private static readonly UserSession userSession = new UserSession();
 
-        private UserSession() { }
+        public UserSession() { }
 
         public static UserSession GetInstance()
         {
