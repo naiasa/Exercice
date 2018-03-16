@@ -43,9 +43,11 @@
     <Compile Include="Exceptions\ThisIsAStubException.cs" />
     <Compile Include="Exceptions\UserNotLoggedInException.cs" />
     <Compile Include="Users\IUserSession.cs" />
+    <Compile Include="Users\IUserSessionFactory.cs" />
     <Compile Include="Users\User.cs" />
     <Compile Include="Users\UserSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\UserSessionFactory.cs" />
     <Compile Include="Wallets\IWalletDAO.cs" />
     <Compile Include="Wallets\WalletDAO.cs" />
     <Compile Include="Wallets\WalletService.cs" />
